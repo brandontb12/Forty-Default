@@ -31,7 +31,6 @@
     "start": "npm run develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "federalist": "npm run build -- --prefix-paths"
   },
   "devDependencies": {
     "prettier": "^1.18.2"
