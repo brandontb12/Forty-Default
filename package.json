@@ -26,9 +26,11 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
+    "clean": "rimraf .cache public",
     "develop": "gatsby develop",
-    "format": "prettier --write '**/*.js'",
+    "start": "npm run develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
     "federalist": "npm run build -- --prefix-paths"
   },
   "devDependencies": {
